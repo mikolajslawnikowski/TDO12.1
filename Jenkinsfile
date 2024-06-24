@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/mikolajslawnikowski/TDO12.1'
+                git 'https://github.com/mikolajslawnikowski/TDO12.1.git'
             }
         }
         stage('Test') {
